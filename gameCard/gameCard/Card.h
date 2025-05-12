@@ -12,15 +12,20 @@ enum class Suit
 
 class Card
 {
+private:
+	Suit suit;
 	int value;
-	void Card();
+
+public:
+
+	 Card();
 };
 
 
 bool operator ==(const Card & card1, const Card& card2)
 {
 	std::cout << "Comparing enemies" << std::endl;
-	return  card1 == card2;
+	return  card1 == card2  ;
 }
 
 
