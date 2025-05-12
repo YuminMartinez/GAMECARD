@@ -1,0 +1,16 @@
+﻿  Card.cpp
+  Player.cpp
+  Source.cpp
+  Generating Code...
+C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Card.h(16,7): error C2533: 'Card': constructors not allowed a return type
+  (compiling source file 'Player.cpp')
+  
+C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.h(14,2): error C3646: 'Card': unknown override specifier
+  (compiling source file 'Player.cpp')
+  
+C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.h(16,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.cpp(3,8): error C2059: syntax error: ')'
+C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.cpp(4,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.cpp(4,1): error C2447: '{': missing function header (old-style formal list?)
