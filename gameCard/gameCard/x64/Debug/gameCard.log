@@ -1,16 +1,104 @@
 ﻿  Card.cpp
+  Game.cpp
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(4,29): error C2614: 'Card': inicialización de miembro no válida: 'suit' no es una base o miembro
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(4,38): error C2614: 'Card': inicialización de miembro no válida: 'value' no es una base o miembro
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,12): error C2065: 'suit': identificador no declarado
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,26): error C2039: "suit": no es un miembro de "Card"
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.h(13,7):
+      vea la declaración de 'Card'
+  
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,34): error C2065: 'value': identificador no declarado
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,49): error C2039: "value": no es un miembro de "Card"
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.h(13,7):
+      vea la declaración de 'Card'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,82): error C2665: 'Player::Player':ninguna función sobrecargada pudo convertir todos los tipos de argumento
+  (compilando archivo de origen "Game.cpp")
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.h(26,1):
+      puede ser 'Player::Player(Player &&) noexcept(false)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,82):
+          'Player::Player(Player &&) noexcept(false)': el argumento 1 no puede convertirse de '_Ty' a 'Player &&'
+          with
+          [
+              _Ty=std::string
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,103):
+              Razón: no se puede realizar la conversión de '_Ty' a 'Player'
+          with
+          [
+              _Ty=std::string
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,103):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.h(26,1):
+      o       'Player::Player(const Player &)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,82):
+          'Player::Player(const Player &)': el argumento 1 no puede convertirse de '_Ty' a 'const Player &'
+          with
+          [
+              _Ty=std::string
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,103):
+              Razón: no se puede realizar la conversión de '_Ty' a 'const Player'
+          with
+          [
+              _Ty=std::string
+          ]
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,103):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,82):
+      al hacer coincidir la lista de argumentos '(_Ty)'
+          with
+          [
+              _Ty=std::string
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,82):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Game.cpp(18,11):
+          Vea la referencia a la creación de una instancia de la función plantilla "void std::vector<Player,std::allocator<Player>>::emplace_back<_Ty&>(_Ty &)" que se está compilando
+          with
+          [
+              _Ty=std::string
+          ]
+              C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Game.cpp(18,23):
+              vea la primera referencia a “std::vector<Player,std::allocator<Player>>::emplace_back” en “Game::Game”
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(909,24):
+          Vea la referencia a la creación de una instancia de la función plantilla "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::basic_string<char,std::char_traits<char>,std::allocator<char>>&>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)" que se está compilando
+          with
+          [
+              _Ty=Player
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(830,20):
+          Vea la referencia a la creación de una instancia de la función plantilla "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<std::basic_string<char,std::char_traits<char>,std::allocator<char>>&>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)" que se está compilando
+          with
+          [
+              _Ty=Player
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(848,27):
+          Vea la referencia a la creación de una instancia de la función plantilla "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>&>(_Alloc &,_Objty *const ,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<Player>,
+              _Ty=Player,
+              _Objty=Player
+          ]
+  
+  main.cpp
   Player.cpp
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(24,14): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(35,18): error C2059: error de sintaxis: ':'
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(47,28): error C2084: la función 'const std::string &Player::GetId(void) const' ya tiene un cuerpo
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.h(27,28):
+      vea la definición anterior de “Player::GetId”
+  
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,70): error C2662: 'int Card::getCard(void)': no se puede convertir el puntero 'this' de 'const Card' a 'Card &'
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,65):
+      Se pierden calificadores en la conversión
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.h(29,12):
+      vea la declaración de 'Card::getCard'
+      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,70):
+      al hacer coincidir la lista de argumentos '()'
+  
+C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,62): error C2088: el operador integrado '<<' no se puede aplicar a un operando de tipo 'std::basic_ostream<char,std::char_traits<char>>'
   Source.cpp
-  Generating Code...
-C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Card.h(16,7): error C2533: 'Card': constructors not allowed a return type
-  (compiling source file 'Player.cpp')
-  
-C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.h(14,2): error C3646: 'Card': unknown override specifier
-  (compiling source file 'Player.cpp')
-  
-C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.h(16,1): error C2143: syntax error: missing ';' before '}'
-  (compiling source file 'Player.cpp')
-  
-C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.cpp(3,8): error C2059: syntax error: ')'
-C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.cpp(4,1): error C2143: syntax error: missing ';' before '{'
-C:\Users\YuminMartinezPerez\source\repos\gameCard\gameCard\Player.cpp(4,1): error C2447: '{': missing function header (old-style formal list?)
+  Generando código...

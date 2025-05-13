@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5E96725-FD73-40E9-A482-2046C583529C}|gameCard\\gameCard.vcxproj|solutionrelative:gameCard\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,66 +51,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Source.cpp",
-              "RelativeDocumentMoniker": "gameCard\\Source.cpp",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Source.cpp",
-              "RelativeToolTip": "gameCard\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-12T16:02:13.027Z",
+              "Title": "Card.h",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.h",
+              "RelativeDocumentMoniker": "gameCard\\Card.h",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.h",
+              "RelativeToolTip": "gameCard\\Card.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-12T16:02:03.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.cpp",
-              "RelativeDocumentMoniker": "gameCard\\Player.cpp",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.cpp",
-              "RelativeToolTip": "gameCard\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\main.cpp",
+              "RelativeDocumentMoniker": "gameCard\\main.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\main.cpp",
+              "RelativeToolTip": "gameCard\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-12T16:02:12.483Z",
+              "WhenOpened": "2025-05-13T17:56:51.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.cpp",
-              "RelativeDocumentMoniker": "gameCard\\Game.cpp",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.cpp",
-              "RelativeToolTip": "gameCard\\Game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-12T16:02:11.739Z",
+              "Title": "util.h",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\util.h",
+              "RelativeDocumentMoniker": "gameCard\\util.h",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\util.h",
+              "RelativeToolTip": "gameCard\\util.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-13T17:54:19.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Card.cpp",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.cpp",
               "RelativeDocumentMoniker": "gameCard\\Card.cpp",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.cpp",
               "RelativeToolTip": "gameCard\\Card.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-12T16:02:11.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "util.h",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\util.h",
-              "RelativeDocumentMoniker": "gameCard\\util.h",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\util.h",
-              "RelativeToolTip": "gameCard\\util.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-12T16:02:08.651Z",
+              "DocumentIndex": 3,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.cpp",
+              "RelativeDocumentMoniker": "gameCard\\Game.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.cpp",
+              "RelativeToolTip": "gameCard\\Game.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T16:02:11.739Z",
               "EditorCaption": ""
             },
             {
@@ -121,35 +121,35 @@
               "RelativeDocumentMoniker": "gameCard\\Player.h",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.h",
               "RelativeToolTip": "gameCard\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-12T16:02:06.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.cpp",
+              "RelativeDocumentMoniker": "gameCard\\Player.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Player.cpp",
+              "RelativeToolTip": "gameCard\\Player.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T16:02:12.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.h",
               "RelativeDocumentMoniker": "gameCard\\Game.h",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Game.h",
               "RelativeToolTip": "gameCard\\Game.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-12T16:02:05.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Card.h",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.h",
-              "RelativeDocumentMoniker": "gameCard\\Card.h",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\projecte\\GAMECARD\\gameCard\\gameCard\\Card.h",
-              "RelativeToolTip": "gameCard\\Card.h",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAWwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-12T16:02:03.603Z",
               "EditorCaption": ""
             }
           ]

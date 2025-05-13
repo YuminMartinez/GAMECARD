@@ -13,19 +13,27 @@ enum class Suit
 class Card
 {
 private:
-	Suit suit;
-	int value;
+	Suit m_suit;
+	int m_value;
 
 public:
-
-	 Card();
+	
+	Card(Suit s, int v);
+	int getValue();	
+	bool operator==(const Card& other) const;
+	Suit getSuit()const;
 };
 
 
-bool operator ==(const Card & card1, const Card& card2)
+int Card ::getValue()
 {
-	std::cout << "Comparing enemies" << std::endl;
-	return  card1 == card2  ;
+	return m_value;
+}
+
+
+Suit Card::getSuit() const
+{
+	return m_suit;
 }
 
 
