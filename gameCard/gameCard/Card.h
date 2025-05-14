@@ -1,13 +1,14 @@
 #pragma once
 #include "util.h"
-enum class Suit
-{
-	HEART,
-	DIAMOND,
-	SPADE,
-	CLUB
 
+enum class Suit 
+{
+	CLUB,    
+	SPADE,   
+	DIAMOND, 
+	HEART    
 };
+
 
 
 class Card
@@ -19,13 +20,14 @@ private:
 public:
 	
 	Card(Suit s, int v);
-	int getValue();	
+	int getValue() const;	
 	bool operator==(const Card& other) const;
 	Suit getSuit()const;
+	friend std::ostream& operator<<(std::ostream& os, const Card& card);
 };
 
 
-int Card ::getValue()
+int Card::getValue() const
 {
 	return m_value;
 }

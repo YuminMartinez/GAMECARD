@@ -20,17 +20,10 @@ public:
 	void SortCards();
 	const std::string& GetId() const;
 	const std::list<Card>& getHand() const;
-
+	friend std::ostream& operator<<(std::ostream& os, const Player& player);
 
 
 };
-const std::string& Player::GetId() const {
-	return id;
-}
-
-const std::list<Card>& Player::getHand()const {
-	return hand;
-}
 
 
 

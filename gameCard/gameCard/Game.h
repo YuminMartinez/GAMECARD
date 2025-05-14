@@ -10,8 +10,8 @@ private:
 public:
 	Game();
 	Card GetNewCard();
-	//void DiscardCard(const Card& card);
-	//void PrintDiscarded() const;
+	void DiscardCard(const Card& card);
+	void PrintDiscarded() const;
 	
 };
 

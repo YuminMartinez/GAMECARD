@@ -7,11 +7,14 @@ Player::Player()
 
 }
 
-bool Player::CompareCards(const Card& a, const Card& b) {
-    if (a.getSuit() != b.getSuit()) {
-        return static_cast<int>(a.getSuit()) < static_cast<int>(b.getSuit());
+bool Player::CompareCards(const Card& a, const Card& b) 
+{
+    if (a.getSuit() != b.getSuit()) 
+    {
+        // Orden descendente por valor
+        return static_cast<int>(a.getSuit()) > static_cast<int>(b.getSuit());
     }
-    return a.getValue() > b.getValue(); // Orden descendente por valor
+    return a.getValue() > b.getValue();
 }
 
 
@@ -26,32 +29,36 @@ void Player::InsertCard(Card card) {
     hand.insert(it, card);
 }
 
-Card Player::GetCard() const {
-    int size = hand.size();
-    if (size == 0) return Card(Suit::CLUB, 0); // valor por defecto
-
-    int index = rand() % size;
-    auto it = hand.begin();
-    std::advance(it, index);
-    return *it;
-}
-
-Card Player::GetCard(const Suit& suit) const {
-    for (const auto& card : hand) {
-        if (card.getSuit() == suit)
-            return card;
+Card Player::GetCard(const Suit& suit) const 
+{
+    Card mayor(Suit::CLUB, 0);
+    for (const auto& card : hand) 
+    {
+        if (card.getSuit() == suit && card.getValue() > mayor.getValue()) {
+            mayor = card;
+        }
     }
-    return Card(Suit::CLUB, 0); // valor por defecto
+    return mayor.getValue() != 0 ? mayor : Card(Suit::CLUB, 0); // valor por defecto
 }
 
-
-
-void Player::SortCards() {
-    hand.sort(CompareCards);
+Card Player::GetCard() const 
+{
+    if (hand.empty()) return Card(Suit::CLUB, 0);
+    auto it = hand.begin();
+    std::advance(it, rand() % hand.size());
+    return *it;
 }
 
 const std::string& Player::GetId() const {
     return id;
+}
+
+const std::list<Card>& Player::getHand() const {
+    return hand;
+}
+
+void Player::SortCards() {
+    hand.sort(CompareCards);
 }
 
 std::ostream& operator<<(std::ostream& os, const Player& player) {

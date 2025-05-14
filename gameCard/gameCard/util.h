@@ -4,7 +4,8 @@
 #include <string>
 #include <list>
 #include <stack>
-
+#include <algorithm>
+#include <random>
 
 #include "Card.h"
 #include "Player.h"
