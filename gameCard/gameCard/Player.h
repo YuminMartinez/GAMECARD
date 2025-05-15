@@ -9,7 +9,7 @@ private:
 	std::list<Card>hand;
 public:
 
-	Player();
+	Player(const std::string& playerId);
 	static bool CompareCards(const Card& a, const Card& b);
 
 

@@ -1,5 +1,11 @@
 #include "util.h"
-int main()
+
+int main() 
 {
-	Game game;
+    Game game;
+
+    game.DiscardCard(Card(Suit::HEART, 10));
+    game.PrintDiscarded(); 
+
+    return 0;
 }

@@ -1,12 +1,8 @@
 #include "util.h"
-Player::Player()
+Player::Player(const std::string& playerId)
 {
-	
-
-
-
+    id = playerId;
 }
-
 bool Player::CompareCards(const Card& a, const Card& b) 
 {
     if (a.getSuit() != b.getSuit()) 

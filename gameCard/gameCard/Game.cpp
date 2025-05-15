@@ -14,13 +14,23 @@ Game::Game()
 
 	players.reserve(numPlayers);
 
-	// Inicializar deck con todas las cartas
+	// Inicializar deck temp con todas las cartas
+	std::vector<Card> tempDeck;
 	for (int s = static_cast<int>(Suit::CLUB); s <= static_cast<int>(Suit::HEART); ++s) {
 		for (int v = 1; v <= 13; ++v) {
-			deck.emplace_back(static_cast<Suit>(s), v); // Inicializar deck con todas las cartas
+			tempDeck.emplace_back(static_cast<Suit>(s), v);
 		}
 	}
-	std::random_shuffle(deck.begin(), deck.end());
+
+	// Insertar cartas en el stack en orden aleatorio
+	srand(time(NULL)); 
+	while (!tempDeck.empty()) 
+	{
+		int randomIndex = rand() % tempDeck.size();
+
+		deck.push(tempDeck[randomIndex]); // Insertar carta aleatoria
+		tempDeck.erase(tempDeck.begin() + randomIndex); // Eliminar del vector
+	}
 
 
 	std::vector<std::string> names = { "Eric", "Sebastian", "Carol", "Yumin", "Roma", "Edgar", "Irene", "Xavi" };
@@ -48,7 +58,7 @@ void Game::PrintDiscarded() const {
 }
 
 Card Game::GetNewCard() {
-	Card top = deck.back();
-	deck.pop_back();
+	Card top = deck.top();
+	deck.pop();
 	return top;
 }
