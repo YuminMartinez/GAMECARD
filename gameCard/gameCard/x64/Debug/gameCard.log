@@ -1,17 +1,5 @@
-﻿  Card.cpp
-  Game.cpp
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(4,29): error C2614: 'Card': inicialización de miembro no válida: 'suit' no es una base o miembro
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(4,38): error C2614: 'Card': inicialización de miembro no válida: 'value' no es una base o miembro
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,12): error C2065: 'suit': identificador no declarado
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,26): error C2039: "suit": no es un miembro de "Card"
-      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.h(13,7):
-      vea la declaración de 'Card'
-  
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,34): error C2065: 'value': identificador no declarado
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.cpp(7,49): error C2039: "value": no es un miembro de "Card"
-      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.h(13,7):
-      vea la declaración de 'Card'
-  
+﻿  Game.cpp
+  main.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,82): error C2665: 'Player::Player':ninguna función sobrecargada pudo convertir todos los tipos de argumento
   (compilando archivo de origen "Game.cpp")
       C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.h(26,1):
@@ -54,13 +42,13 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.3480
           ]
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\xmemory(732,82):
       el contexto de creación de instancias de la plantilla (el más antiguo primero) es
-          C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Game.cpp(18,11):
+          C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Game.cpp(28,11):
           Vea la referencia a la creación de una instancia de la función plantilla "void std::vector<Player,std::allocator<Player>>::emplace_back<_Ty&>(_Ty &)" que se está compilando
           with
           [
               _Ty=std::string
           ]
-              C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Game.cpp(18,23):
+              C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Game.cpp(28,23):
               vea la primera referencia a “std::vector<Player,std::allocator<Player>>::emplace_back” en “Game::Game”
           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(909,24):
           Vea la referencia a la creación de una instancia de la función plantilla "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::basic_string<char,std::char_traits<char>,std::allocator<char>>&>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)" que se está compilando
@@ -83,22 +71,5 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.3480
               _Objty=Player
           ]
   
-  main.cpp
   Player.cpp
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(24,14): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(35,18): error C2059: error de sintaxis: ':'
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(47,28): error C2084: la función 'const std::string &Player::GetId(void) const' ya tiene un cuerpo
-      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.h(27,28):
-      vea la definición anterior de “Player::GetId”
-  
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,70): error C2662: 'int Card::getCard(void)': no se puede convertir el puntero 'this' de 'const Card' a 'Card &'
-      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,65):
-      Se pierden calificadores en la conversión
-      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Card.h(29,12):
-      vea la declaración de 'Card::getCard'
-      C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,70):
-      al hacer coincidir la lista de argumentos '()'
-  
-C:\Users\Usuario\Desktop\projecte\GAMECARD\gameCard\gameCard\Player.cpp(54,62): error C2088: el operador integrado '<<' no se puede aplicar a un operando de tipo 'std::basic_ostream<char,std::char_traits<char>>'
-  Source.cpp
   Generando código...

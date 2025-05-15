@@ -11,6 +11,7 @@ Game::Game()
 	} while (numPlayers < 2 || numPlayers > 8);
 
 
+
 	players.reserve(numPlayers);
 
 	// Inicializar deck con todas las cartas
@@ -22,12 +23,12 @@ Game::Game()
 	std::random_shuffle(deck.begin(), deck.end());
 
 
-	std::vector<std::string> names = { "Alice", "Bob", "Carol", "Dave", "Eve", "Frank", "Grace", "Hank" };
+	std::vector<std::string> names = { "Eric", "Sebastian", "Carol", "Yumin", "Roma", "Edgar", "Irene", "Xavi" };
 	for (int i = 0; i < numPlayers; ++i) {
 		players.emplace_back(names[i % names.size()]);
 	}
 
-	for (int i = 0; i < 10; ++i) {
+	for (int i = 0; i < numPlayers; ++i) {
 		for (auto& player : players) {
 			player.InsertCard(GetNewCard());
 		}
